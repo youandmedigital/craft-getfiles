@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/youandmedigital/craft-getfiles/blob/master/src/icon.svg" alt="GetFiles" width="400"/>
+    <img src="https://github.com/youandmedigital/craft-getfiles/blob/master/src/icon.svg" alt="GetFiles" width="150"/>
 </p>
 # GetFiles for Craft
 
