@@ -8,13 +8,13 @@ This plugin retrieves a list of files based on a specified folder path.
 
 You might have a generic service worker setup and want to cache some font files.
 Font names change per project. You want to list all the fonts in your build
-folder and be able to format the output, so there's one thing less for you to
+folder and be able to format the output, so there is one thing less for you to
 change when you setup a new project.
 
 **Example 2:**
 
 You might have a folder on your server with some images. You want to output the
-contents of this folder in the front end through twig.
+contents of this folder in the front-end using twig.
 
 ## Usage
 
@@ -36,7 +36,7 @@ Would output:
 <img src="/assets/images/image1.jpg" alt="image1.jpg">
 <img src="/assets/images/image2.jpg" alt="image2.jpg">
 <img src="/assets/images/image3.jpg" alt="image3.jpg">
-<img src="/assets/images/image4.gif" alt="image3.gif">
+<img src="/assets/images/image4.gif" alt="image4.gif">
 ```
 
 **Example 2:**
@@ -54,7 +54,7 @@ Would output:
 
 ```
 <p>Available images:<p>
-<img src="/assets/images/image4.gif" alt="image3.gif">
+<img src="/assets/images/image4.gif" alt="image4.gif">
 ```
 
 ## Options
