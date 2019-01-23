@@ -4,7 +4,7 @@
 
 # GetFiles for Craft
 
-This plugin retrieves a list of files based on a specified folder path.
+This Craft CMS 3 plugin retrieves a list of files based on a specified folder path.
 
 ## Use case
 
