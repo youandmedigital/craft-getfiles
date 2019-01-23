@@ -1,3 +1,4 @@
+![Logo](https://github.com/youandmedigital/craft-getfiles/blob/master/src/icon.svg)
 # GetFiles for Craft
 
 This plugin retrieves a list of files based on a specified folder path.
