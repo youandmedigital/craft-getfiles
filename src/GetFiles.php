@@ -33,9 +33,4 @@ class GetFiles extends Plugin
         });
     }
 
-    protected function createSettingsModel()
-    {
-        return new \youandmedigital\getfiles\models\Settings();
-    }
-
 }
