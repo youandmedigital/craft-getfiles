@@ -53,8 +53,8 @@ Would output:
 {% set settings =
     {
         filepath: '/assets/images/',
-        pattern: '*.gif',
         pathformat: '1',
+        pattern: '*.gif'
     }
 %}
 {% set images = craft.getfiles.config(settings) %}
