@@ -1,7 +1,7 @@
 {
   "name": "youandmedigital/getfiles",
   "description": "Get a list of files based on a specified folder path.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "craft-plugin",
   "keywords": ["craft", "cms", "files", "assets"],
   "license": "MIT",
@@ -28,6 +28,9 @@
   "extra": {
     "handle": "getfiles",
     "name": "Get Files",
+    "components": {
+        "getFilesService": "youandmedigital\\getfiles\\services\\GetFilesService"
+    },
     "class": "youandmedigital\\getfiles\\GetFiles"
   }
 }
