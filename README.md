@@ -75,7 +75,13 @@ Would output:
 ## Options
 
 ```
-{% set <variable> = craft.getfiles.options('<filePath>', '<filePattern>', '<filePathFormat>') %}
+{% set settings =
+    {
+        filepath: '',
+        pathformat: '',
+        pattern: ''
+    }
+%}
 ```
 - **filepath** (required): The path to a folder, relative to your base path
 - **pattern** (optional, defaults to `*`): Regex pattern
