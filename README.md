@@ -53,7 +53,7 @@ Would output:
 {% set settings =
     {
         filepath: '/assets/images/',
-        pathformat: '1',
+        pathformat: '2',
         pattern: '*.gif'
     }
 %}
@@ -61,7 +61,7 @@ Would output:
 
 <p>Available images:</p>
 {% for image in images %}
-<img src="/assets/images/{{ image }}" alt="{{ image }}">
+<img src="{{ image }}" alt="{{ image }}">
 {% endfor %}
 ```
 
