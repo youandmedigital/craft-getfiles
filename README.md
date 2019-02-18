@@ -78,7 +78,7 @@ Would output:
 {% set <variable> = craft.getfiles.options('<filePath>', '<filePattern>', '<filePathFormat>') %}
 ```
 - **filepath** (required): The path to a folder, relative to your base path
-- **pattern** (optional): Regex pattern
+- **pattern** (optional, defaults to `*`): Regex pattern
 - **pathformat** (optional, defaults to `2`): If you specify `1`, the plugin will return the filename only. If you specify `2`, the plugin will output the filename prefixed with your sites base path.
 
 ## Changelog
