@@ -26,14 +26,14 @@ from your build folder.
 {% set settings =
     {
         filepath: '/assets/images/',
-        pathformat: '1'
+        pathformat: '2'
     }
 %}
 {% set images = craft.getfiles.config(settings) %}
 
 <p>Available images:</p>
 {% for image in images %}
-    <img src="/assets/images/{{ image }}" alt="{{ image }}">
+    <img src="{{ image }}" alt="{{ image }}">
 {% endfor %}
 ```
 
@@ -53,7 +53,7 @@ Would output:
 {% set settings =
     {
         filepath: '/assets/images/',
-        pathformat: '2',
+        pathformat: '1',
         pattern: '*.gif'
     }
 %}
@@ -61,7 +61,7 @@ Would output:
 
 <p>Available images:</p>
 {% for image in images %}
-<img src="{{ image }}" alt="{{ image }}">
+<img src="/assets/images/{{ image }}" alt="{{ image }}">
 {% endfor %}
 ```
 
