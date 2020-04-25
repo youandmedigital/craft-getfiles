@@ -1,0 +1,35 @@
+{
+  "name": "youandmedigital/craft-getfiles",
+  "description": "Get a list of files based on a specified folder path",
+  "version": "1.0.0",
+  "type": "craft-plugin",
+  "keywords": ["craft", "cms", "files", "assets"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "You & Me Digital",
+      "homepage": "https://youandme.digital"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/youandmedigital/craft-getfiles/issues/new",
+    "source": "https://github.com/youandmedigital/craft-getfiles",
+    "docs": "https://github.com/youandmedigital/craft-getfiles"
+  },
+  "require": {
+    "craftcms/cms": "^3.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "youandmedigital\\getfiles\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "getfiles",
+    "name": "Get Files",
+    "components": {
+        "getFilesService": "youandmedigital\\getfiles\\services\\GetFilesService"
+    },
+    "class": "youandmedigital\\getfiles\\GetFiles"
+  }
+}
